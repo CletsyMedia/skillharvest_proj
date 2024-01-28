@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meal Timetable</title>
   <style>
+    *,
+    ::after,
+    ::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -21,63 +29,103 @@
     th {
       background-color: #f2f2f2;
     }
+
+    .link_head {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .links a:hover {
+      color: #007bff;
+    }
+
+    .header {
+      background-color: #e1e1e1;
+      padding: 10px;
+      width: 100%;
+      top: 0;
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
+  <h1 class="header">Skillharvest Week 03 ---- Git, Images, Links and Tables</h1>
 
-  <h2>Meal Timetable</h2>
+  <main>
+    <div class="link_head">
+      <h2>Useful Links</h2>
+      <div class="links">
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.amazon.com" target="_blank">Amazon</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
+      </div>
+    </div>
 
-  <table>
-    <tr>
-      <th>Day</th>
-      <th>Breakfast</th>
-      <th>Lunch</th>
-      <th>Dinner</th>
-    </tr>
-    <tr>
-      <td>Monday</td>
-      <td>Oatmeal</td>
-      <td>Grilled Chicken Salad</td>
-      <td>Spaghetti Bolognese</td>
-    </tr>
-    <tr>
-      <td>Tuesday</td>
-      <td>Scrambled Eggs</td>
-      <td>Veggie Wrap</td>
-      <td>Grilled Fish with Vegetables</td>
-    </tr>
-    <tr>
-      <td>Wednesday</td>
-      <td>Pancakes</td>
-      <td>Rice with Stew</td>
-      <td>Amala with Ewedu</td>
-    </tr>
-    <tr>
-      <td>Thursday</td>
-      <td>Fruit Smoothie</td>
-      <td>Salad Sandwich</td>
-      <td>Vegetarian Lasagna</td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td>French Toast</td>
-      <td>Yam with Egg Sauce</td>
-      <td>Eba with Okoro</td>
-    </tr>
-    <tr>
-      <td>Saturday</td>
-      <td>Akara with Pap</td>
-      <td>Beans with Plantain</td>
-      <td>Night out with Suya</td>
-    </tr>
-    <tr>
-      <td>Sunday</td>
-      <td>Tea with Bread</td>
-      <td>Fried Rice</td>
-      <td>Semovita and Eguisi</td>
-    </tr>
-  </table>
+    <h2>Meal Timetable</h2>
+
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Breakfast</th>
+        <th>Lunch</th>
+        <th>Dinner</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Oatmeal</td>
+        <td>Grilled Chicken Salad</td>
+        <td>Spaghetti Bolognese</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Scrambled Eggs</td>
+        <td>Veggie Wrap</td>
+        <td>Grilled Fish with Vegetables</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Pancakes</td>
+        <td>Rice with Stew</td>
+        <td>Amala with Ewedu</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Fruit Smoothie</td>
+        <td>Salad Sandwich</td>
+        <td>Vegetarian Lasagna</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>French Toast</td>
+        <td>Yam with Egg Sauce</td>
+        <td>Eba with Okoro</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Akara with Pap</td>
+        <td>Beans with Plantain</td>
+        <td>Night out with Suya</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Tea with Bread</td>
+        <td>Fried Rice</td>
+        <td>Semovita and Eguisi</td>
+      </tr>
+    </table>
+  </main>
 
 </body>
 
