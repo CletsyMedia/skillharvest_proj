@@ -13,7 +13,19 @@
       padding: 0;
       box-sizing: border-box;
     }
-    main{
+
+    /* Header */
+
+    .header {
+      background-color: #e1e1e1;
+      padding: 10px;
+      width: 100%;
+      top: 0;
+      text-align: center;
+    }
+
+    /* Main */
+    main {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -21,15 +33,17 @@
       min-width: 700px;
       max-width: 100%;
     }
+
+    /* Images */
     .image-container {
       display: flex;
       justify-content: space-around;
-      gap:7px;
+      gap: 7px;
       margin-top: 20px;
     }
 
-    .img-head{
-      margin-top:10px;
+    .img-head {
+      margin-top: 10px;
     }
 
     .image-container img {
@@ -42,28 +56,11 @@
       transition: transform 0.3s ease;
     }
 
-    .image-container img:hover{
+    .image-container img:hover {
       transform: scale(1.05);
     }
-    
-    table {
-      width: 90%;
-      max-width: 700px; 
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
 
-    th,
-    td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: center;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-
+    /* Links */
     .link_head {
       margin: 20px 0;
       text-align: center;
@@ -82,12 +79,23 @@
       color: #007bff;
     }
 
-    .header {
-      background-color: #e1e1e1;
-      padding: 10px;
-      width: 100%;
-      top: 0;
+    /* Tables */
+    table {
+      width: 90%;
+      max-width: 700px;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
       text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
     }
   </style>
 </head>
@@ -105,8 +113,8 @@
       <img src="./img/img3.jpg" alt="Image 3">
       <img src="./img/img4.jpg" alt="Image 4">
       <img src="./img/img5.jpg" alt="Image 5">
-      
-  </div>
+
+    </div>
 
     <div class="link_head">
       <h2>Useful Links</h2>
