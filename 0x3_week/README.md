@@ -1,20 +1,20 @@
 # SkillHarvest Week 03 Exercise - Git, Images, Links, and Tables
 
-This exercise focuses on practicing HTML and CSS skills by creating a simple webpage featuring a meal timetable, useful links, and images sourced from Pexels.com. The main objectives are:
+This exercise focuses on practicing HTML and exercising CSS skills by creating a simple webpage featuring a meal timetable, useful links, and images sourced from directory. The main objectives are:
 
 1. Create a meal timetable using HTML table elements.
-2. Style the webpage using CSS to make it visually appealing and responsive.
-3. Include useful links with hover effects for enhanced user experience.
-4. Add images sourced from Pexels.com with a simple border and hover effect.
+2. Include useful links
+3. Add images sourced from the directory or path
+4. 50 Git commands and their usage.
 
-## Meal Timetable
-The meal timetable provides a schedule for breakfast, lunch, and dinner from Monday to Sunday.
+## Images from Pexels
+Five images are displayed before the links and meal timetable, each with a simple border and a zoom effect on hover.
 
 ## Useful Links
 The webpage includes links to popular sites such as Google, Amazon, Facebook, Twitter, and Yahoo.
 
-## Images from Pexels
-Five images sourced from Pexels.com are displayed below the meal timetable, each with a simple border and a zoom effect on hover.
+## Meal Timetable
+The meal timetable provides a schedule for breakfast, lunch, and dinner from Monday to Sunday.
 
 ---
 
