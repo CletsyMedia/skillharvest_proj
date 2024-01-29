@@ -1,5 +1,7 @@
 # SkillHarvest Week 03 Exercise - Git, Images, Links, and Tables
 
+![Screenshot](./img/screenshot.png)
+
 This exercise focuses on practicing HTML and exercising CSS skills by creating a simple webpage featuring a meal timetable, useful links, and images sourced from directory. The main objectives are:
 
 1. Create a meal timetable using HTML table elements.
